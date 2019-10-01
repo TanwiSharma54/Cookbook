@@ -63,40 +63,60 @@ Week 8
  Create ALL RECIPES search Page
  Create ADD RECIPES / INGREDIENTS PAGE
  Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented.
+
+
 Week 9
  Weekly journal entry
  Add RECIPE DETAILS PAGE
  Integration with RECIPE DETAILS PAGE
  Review and incorporate feedback from Checkpoint 3.
  Carefully review code for standards and best practices - use a code quality tool?
+
+
 Week 8
  Weekly journal entry
  Add a feature to RECIPE DETAILS PAGE that allows the user to 
  favourite a recipe, rate it and add notes 
  Code review
+
+
 Week 9
  Weekly journal entry
  Add password reset/reminder functionality
+
+
 Week 10
  Weekly journal entry
  Unit test all api integrations
+
+
 Week 11 - Team project work week
  Weekly journal entry
+
+
 Week 12 - Team project due
  Weekly journal entry
  Review indie project and create list of todos
+
+
 Week 13
  Weekly journal entry
  Complete todos identified in week 12
  Prepare for week 13 peer code reviews
  Code quality check
+
+
 Week 14
  Weekly journal entry
  Create final presentation
+
+
 Week 15
  Final Presentation
  Finalize all documentation
  Code quality check
+
+
 Week 16
  Weekly journal entry
  Final touches before code complete
