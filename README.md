@@ -82,9 +82,10 @@ JUnit tests to achieve 80%+ code coverage
 **IDE: IntelliJ IDEA**
 
 **Design**
-User Stories
-Screen Design
-Application Flow
+User Stories [UserStories.md]
+Project Plan [ProjectPlan.md]
+Screen Design [cookBookAppScreenDesigns directory]
+Application Flow [CookBookActivityDiagram.png]
 Database Design 
 
 ### Feedback
