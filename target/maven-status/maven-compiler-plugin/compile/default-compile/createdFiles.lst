@@ -1,0 +1,4 @@
+edu/matc/persistence/GoogleUserDao.class
+edu/matc/controller/AddGoogleUser.class
+edu/matc/persistence/SessionFactoryProvider.class
+edu/matc/entity/GoogleUser.class
