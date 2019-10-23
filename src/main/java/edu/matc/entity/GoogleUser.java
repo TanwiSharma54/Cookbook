@@ -12,32 +12,38 @@ import java.util.Set;
 @Entity(name = "GoogleUser")
 @Table(name = "GoogleUser")
 public class GoogleUser {
+
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")
-    private int id;
+    private int userId;
     @Column(name = "name")
     private String name;
     @Column(name = "email")
     private String email;
+    private Set<Recipe> recipes = new HashSet<Recipe>(0);
 
     public GoogleUser() {
     }
-
 
     public GoogleUser(String name, String email) {
         this.name = name;
         this.email = email;
     }
 
-    public int getId() {
-        return id;
+    public GoogleUser(String name, String email, Set<Recipe> recipes) {
+        this.name = name;
+        this.email = email;
+        this.recipes = recipes;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public int getUserId() {
+        return userId;
     }
 
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
     public String getName() {
         return name;
     }
@@ -54,12 +60,26 @@ public class GoogleUser {
         this.email = email;
     }
 
-    @java.lang.Override
-    public java.lang.String toString() {
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinTable(name = "user_recipe", joinColumns = {
+            @JoinColumn(name = "userId", nullable = false, updatable = false) },
+            inverseJoinColumns = { @JoinColumn(name = "recipeId",
+                    nullable = false, updatable = false) })
+    public Set<Recipe> getRecipes() {
+        return recipes;
+    }
+
+    public void setRecipes(Set<Recipe> recipes) {
+        this.recipes = recipes;
+    }
+
+    @Override
+    public String toString() {
         return "GoogleUser{" +
-                "id=" + id +
+                "userId=" + userId +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
+                ", recipes=" + recipes +
                 '}';
     }
 }

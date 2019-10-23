@@ -64,9 +64,9 @@ public class GoogleUserDaoTest implements Serializable {
     void insertSuccess() {
 
         GoogleUser newGoogleUser = new GoogleUser("John Vallaso", "vallaso@gmail.com");
-        int id = dao.insert(newGoogleUser);
-        assertNotEquals(0,id);
-        GoogleUser insertedGoogleUser = dao.getById(id);
+        int userId = dao.insert(newGoogleUser);
+        assertNotEquals(0,userId);
+        GoogleUser insertedGoogleUser = dao.getById(userId);
         assertNotNull(insertedGoogleUser);
         assertEquals("John Vallaso", insertedGoogleUser.getName());
 

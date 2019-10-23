@@ -23,11 +23,11 @@ DROP TABLE IF EXISTS `GoogleUser`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `GoogleUser` (
-                              `id` int(11) NOT NULL AUTO_INCREMENT,
+                              `userId` int(11) NOT NULL AUTO_INCREMENT,
                               `name` varchar(25) NOT NULL,
                               `email` varchar(40) NOT NULL,
-                              PRIMARY KEY (`id`),
-                              UNIQUE KEY `GoogleUser_id_uindex` (`id`)
+                              PRIMARY KEY (`userId`),
+                              UNIQUE KEY `GoogleUser_id_uindex` (`userId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

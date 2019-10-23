@@ -21,9 +21,9 @@ public class GoogleUserDao implements Serializable{
     /**
      * Get GoogleUser by id
      */
-   public GoogleUser getById(int id) {
+   public GoogleUser getById(int userId) {
         Session session = sessionFactory.openSession();
-       GoogleUser googleUser = session.get( GoogleUser.class, id );
+       GoogleUser googleUser = session.get( GoogleUser.class, userId );
         session.close();
         return googleUser;
     }
@@ -45,13 +45,13 @@ public class GoogleUserDao implements Serializable{
      * @param GoogleUser  Author to be inserted
      */
     public int insert(GoogleUser GoogleUser) {
-        int id = 0;
+        int userId = 0;
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        id = (int)session.save(GoogleUser);
+        userId = (int)session.save(GoogleUser);
         transaction.commit();
         session.close();
-        return id;
+        return userId;
     }
 
     /**

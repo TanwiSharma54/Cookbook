@@ -6,7 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <!--::header part start::-->
-<!--::header part start::-->
 <header class="main_menu home_menu">
     <div class="container">
         <div class="row align-items-center">
