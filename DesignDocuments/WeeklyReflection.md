@@ -11,7 +11,6 @@ Chose a project goal.
 Reviewed numerous APIs for suitability.
 Create project repository on GitHub.
 Create project structure in intellij and push.
-
 Add link to list of indie projects in student repo.
 
 Week 4
@@ -24,7 +23,6 @@ Reviewed Google APIs and spoonacular APIs to use.
 List technologies, versions and how they will be used.
 Write project plan.
 Document application flow.
-
 1: Problem statement, project plan, screen design and time log pushed to GitHub.
 
 
