@@ -17,7 +17,7 @@
 | 10/22/19| Add Recipe table to cookbookapp database | 1 | |
 | 10/22/19| Add user_recipe table to cookbookapp database | 1 | |
 | 10/22/19| Add Recipe.java entity class | 1 | |
-| 10/22/19| Implemented many-to-many relationship between GoogleUser and Recipe table |  | |
+| 10/22/19| Implemented many-to-many relationship between GoogleUser and Recipe table | 2 | |
 |  |  |  | |
 |  |  |  | |
 |  |  |  | |
