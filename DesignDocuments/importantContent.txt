@@ -17,3 +17,9 @@ git add initial
 git commit -m "initial commit"
 
 git push -u origin master
+======================================================
+aws owner : 965180265739
+
+
+========================
+3.133.175.9 elastic ip
