@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57a69d45-af62-4ff7-8e03-00fd6b459db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignDocuments/CookbookApp.pem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignDocuments/importantContent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DesignDocuments/importantContent.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp.war" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +187,7 @@
       <workItem from="1569809444261" duration="40000" />
       <workItem from="1569921823262" duration="6327000" />
       <workItem from="1572581457456" duration="8757000" />
-      <workItem from="1572596512362" duration="1123000" />
+      <workItem from="1572596512362" duration="4595000" />
     </task>
     <servers />
   </component>

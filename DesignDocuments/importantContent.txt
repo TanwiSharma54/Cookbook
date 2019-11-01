@@ -23,3 +23,13 @@ aws owner : 965180265739
 
 ========================
 3.133.175.9 elastic ip
+
+ssh -i "CookbookApp.pem" root@ec2-3-133-175-9.us-east-2.compute.amazonaws.com
+
+ssh -i "/home/student/EnterpriseRepository/CookbookApp.pem" ubuntu@ec2-3-133-175-9.us-east-2.compute.amazonaws.com
+
+db pass : uBUs4XoxU9UsEw
+
+aws link: http://3.133.175.9:8080/cookbookapp/
+
+ubuntu@ip-172-31-21-203:/opt/tomcat/webapps/manager/META-INF$ sudo chmod a+rwx context.xml
