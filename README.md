@@ -29,13 +29,14 @@ which suit the user’s needs.
 
 
 **Project Technologies/Techniques**
+
 **1>Security/Authentication**
 
-Tomcat's JDBC Realm Authentication
+-Tomcat's JDBC Realm Authentication/Google oAuth API
 
-Admin role: create/read/update/delete (crud) of all data
+-Admin role: create/read/update/delete (crud) of all data
 
-User role: This application allows the user to select the ingredients he 
+-User role: This application allows the registered user to select the ingredients he 
 or she wants and view recipes that contain those ingredients. These
 ingredients can be sorted and filtered to the user's convenience. The 
 user can also view recipes directly and select the one to cook. Recipes 
@@ -48,47 +49,75 @@ The application solves this and many other problems while also providing
 the user with nutritional knowledge about their food.
 
 2>**Database**
-MySQL
-Store users 
-Store all data for the Cookbook 
+
+-MySQL
+
+-Store users 
+
+-Store all data for the Cookbook 
 
 **3>ORM Framework**
-Hibernate 5
-Dependency Management
-Maven
-Web Services consumed using Java
 
-4> **CSS**
-Bootstrap
-Data Validation
-Bootstrap Validator for front end
-Explore Hibernate's validation
-Logging
-Configurable logging using Log4J2. In production, only errors will normally be logged, but logging at a debug level can be turned on to facilitate trouble-shooting.
+-Hibernate 5
+
+-Dependency Management
+
+-Maven
+
+-Web Services consumed using Java
+
+4> **Website FrontEnd Design**
+
+-Bootstrap
+
+-HTML5
+
+-CSS3
+
+-Data Validation
+
+-Explore Hibernate's validation
+
+-Logging
+
+-Configurable logging using Log4J2. In production, only errors will normally be logged, 
+but logging at a debug level can be turned on to facilitate trouble-shooting.
 
 **5>Hosting**
-AWS
+
+-AWS
 
 **6>Independent Research Topic/s**
-CI tools in AWS
-Google Login API
-Hibernate Validation
-Hibernat Search
-Project Lombok to eliminate boilerplate code like getters/setters/equals
+
+-CI tools in AWS
+
+-Google oAuth API
+
+-spoonacular APIs
+
+-Hibernate Validation
+
+-Hibernat Search
+
+-Project Lombok to eliminate boilerplate code like getters/setters/equals
 
 **6>Unit Testing**
-JUnit tests to achieve 80%+ code coverage
+
+-JUnit tests to achieve 80%+ code coverage
 
 **IDE: IntelliJ IDEA**
 
 **Design**
-User Stories [UserStories.md]
-Project Plan [ProjectPlan.md]
-Screen Design [cookBookAppScreenDesigns directory]
-Application Flow [CookBookActivityDiagram.png]
-Database Design 
+-User Stories [UserStories.md]
+
+-Project Plan [ProjectPlan.md]
+
+-Screen Design [cookBookAppScreenDesigns directory]
+
+-Application Flow [CookBookActivityDiagram.png]
+
+-Database Design 
 
 ### Feedback
 
 [Link to the peer feedback form](Feedback.md)
-

@@ -1,0 +1,5 @@
+com/tanwisharma/persistence/SessionFactoryProvider.class
+com/tanwisharma/persistence/GoogleUserDao.class
+com/tanwisharma/entity/GoogleUser.class
+com/tanwisharma/entity/Recipe.class
+com/tanwisharma/controller/AddGoogleUser.class
