@@ -7,10 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57a69d45-af62-4ff7-8e03-00fd6b459db2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cookbookapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignDocuments/importantContent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DesignDocuments/importantContent.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/AddGoogleUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/AddGoogleUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/GoogleUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/GoogleUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/Recipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/persistence/GoogleUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/persistence/GoogleUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/persistence/SessionFactoryProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/persistence/SessionFactoryProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/Header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/AddGoogleUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/AddGoogleUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/GoogleUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/GoogleUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/Recipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/persistence/GoogleUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/persistence/GoogleUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/persistence/SessionFactoryProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/persistence/SessionFactoryProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +65,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
-    <option name="y" value="67" />
-    <option name="width" value="1193" />
-    <option name="height" value="733" />
   </component>
   <component name="ProjectId" id="1Szzv0iB90kbf7ZyeCQbzo8Btv2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -187,7 +199,8 @@
       <workItem from="1569809444261" duration="40000" />
       <workItem from="1569921823262" duration="6327000" />
       <workItem from="1572581457456" duration="8757000" />
-      <workItem from="1572596512362" duration="4595000" />
+      <workItem from="1572596512362" duration="16268000" />
+      <workItem from="1572647965943" duration="4182000" />
     </task>
     <servers />
   </component>

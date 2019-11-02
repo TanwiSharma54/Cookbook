@@ -60,6 +60,7 @@
                             document.getElementById("status").innerHTML = '<a class="btn_1 d-none d-sm-block" href="success.jsp?email='+email+'&name='+name+'&imagurl='+imagurl+'"/>Continue with Google login</a></p>'
                         }
                     </script>
+                    <a href="login.jsp"><input type="button" value="Login" name="cancel"/></a>
                     <button onclick="myFunction()">Sign Out</button>
                     <script>
                         function myFunction() {

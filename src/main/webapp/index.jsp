@@ -7,8 +7,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="9637365623-60mh9lsstjm89hh809ddemnl2dpkic0i.apps.googleusercontent.com">
-    <!-- import part start-->
+    <!--   <meta name="google-signin-client_id" content="9637365623-60mh9lsstjm89hh809ddemnl2dpkic0i.apps.googleusercontent.com"> -->
+   <!-- import part start-->
     <c:import url="template-header.jsp" />
     <!-- import part end-->
 </head>
