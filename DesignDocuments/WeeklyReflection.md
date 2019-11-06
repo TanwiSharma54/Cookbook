@@ -67,3 +67,24 @@ Implemented many-to-many relationship between GoogleUser and Recipe table.
 Generated ER Diagram.
 
 
+Week 8
+10/23/2019 - 6 hours
+
+Tasks completed:
+
+Implemented JDBC Realm authentication.
+Fixed j_security_login bugs.
+Create new table "role" @localhost.
+Dumped record into role table.
+
+
+Week 9
+10/30/2019 - 4 hours
+
+Tasks: Still working:
+Deployed Application on AWS.
+Created new table role @AWS remote.
+Dumped record into "role" table.
+Working on issue.
+
+
