@@ -8,46 +8,15 @@
   <component name="ChangeListManager">
     <list default="true" id="57a69d45-af62-4ff7-8e03-00fd6b459db2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CookbookApp.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignDocuments/importantContent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DesignDocuments/importantContent.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/AddGoogleUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/AddGoogleUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/allRecipes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/allRecipes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/userRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/userRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/AddNewIngredients.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AddNewIngredients.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/AddNewRecipe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AddNewRecipe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Error.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Recipes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Recipes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SearchByIngredients.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/SearchByIngredients.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/userRegistration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userRegistration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/AddGoogleUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/AddGoogleUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/GoogleUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/Recipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/persistence/GoogleUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/Header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/AddGoogleUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/AddGoogleUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/GoogleUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/Recipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/persistence/GoogleUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/admin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +120,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.cookbookapp [package]">
+    <configuration name="cookbookapp [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="tomcat" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -225,6 +219,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.cookbookapp [package]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -248,7 +247,7 @@
       <workItem from="1572858111406" duration="7984000" />
       <workItem from="1572884043155" duration="12125000" />
       <workItem from="1572939258952" duration="851000" />
-      <workItem from="1573025699348" duration="3892000" />
+      <workItem from="1573025699348" duration="5750000" />
     </task>
     <servers />
   </component>
