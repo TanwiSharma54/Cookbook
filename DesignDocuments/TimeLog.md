@@ -18,12 +18,13 @@
 | 10/22/19| Add user_recipe table to cookbookapp database | 1 | |
 | 10/22/19| Add Recipe.java entity class | 1 | |
 | 10/22/19| Implemented many-to-many relationship between GoogleUser and Recipe table | 2 | |
-|  |  |  | |
-|  |  |  | |
-|  |  |  | |
-|  |  |  | |
-|  |  |  | |
-|  |  |  | |
+| 10/24/19| Created new table "role"@localhost and dumped record into that  | 1 | |
+| 10/25/19| Started implementing jdbc authentication  | 1 | |
+| 10/26/19 | Continue working on JDBC authentication | 2 | |
+| 10/28/19 | Fixing JDBC authentication bug  | 4 | |
+| 11/1/19 | Application deployment on AWS | 2 | |
+| 11/2/19 | Deployment broke some services, trying to resolve | 3 | |
+| 11/4/19 | Added new table "role" @AWS remote and dumped data into | 1 | |
 |  |  |  | |
 |  |  |  | |
 |  |  |  | |
