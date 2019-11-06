@@ -1,6 +1,6 @@
 package com.tanwisharma.controller;
 
-import com.tanwisharma.persistence.GoogleUserDao;
+import com.tanwisharma.persistence.UserDao;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -22,7 +22,7 @@ public class AddGoogleUser extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        GoogleUserDao userData = new GoogleUserDao();
+        UserDao userData = new UserDao();
 
     }
 }

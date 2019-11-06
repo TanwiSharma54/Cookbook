@@ -18,8 +18,8 @@ public class Recipe implements java.io.Serializable {
     private int servings;
     @Column(name = "imageUrl")
     private String imageUrl;
-
-    private Set<GoogleUser> googleUser = new HashSet<GoogleUser>(0);
+    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "recipes")
+    private Set<User> users = new HashSet<User>();
 
     public Recipe() {
     }
@@ -32,13 +32,13 @@ public class Recipe implements java.io.Serializable {
         this.imageUrl = imageUrl;
     }
 
-    public Recipe(int recipeId, String title, String readyInMinutes, int servings, String imageUrl, Set<GoogleUser> googleUser) {
+    public Recipe(int recipeId, String title, String readyInMinutes, int servings, String imageUrl, Set<User> users) {
         this.recipeId = recipeId;
         this.title = title;
         this.readyInMinutes = readyInMinutes;
         this.servings = servings;
         this.imageUrl = imageUrl;
-        this.googleUser = googleUser;
+        this.users = users;
     }
 
     public int getRecipeId() {
@@ -82,15 +82,13 @@ public class Recipe implements java.io.Serializable {
     }
 
 
-    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "recipes")
-    public Set<GoogleUser> getGoogleUser() {
-        return googleUser;
+    public Set<User> getUsers() {
+        return users;
     }
 
-    public void setGoogleUser(Set<GoogleUser> googleUser) {
-        this.googleUser = googleUser;
+    public void setUsers(Set<User> users) {
+        this.users = users;
     }
-
     @Override
     public String toString() {
         return "Recipe{" +
@@ -99,7 +97,7 @@ public class Recipe implements java.io.Serializable {
                 ", readyInMinutes='" + readyInMinutes + '\'' +
                 ", servings=" + servings +
                 ", imageUrl='" + imageUrl + '\'' +
-                ", googleUser=" + googleUser +
+                ", users=" + users +
                 '}';
     }
 }

@@ -1,5 +1,9 @@
 /home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/persistence/SessionFactoryProvider.java
-/home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/entity/GoogleUser.java
+/home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/entity/User.java
+/home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/controller/admin.java
+/home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/persistence/UserDao.java
+/home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/controller/userRegistration.java
 /home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/controller/AddGoogleUser.java
-/home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/persistence/GoogleUserDao.java
+/home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/controller/allRecipes.java
+/home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/controller/login.java
 /home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/entity/Recipe.java

@@ -1,5 +1,6 @@
-<%@ page import="com.tanwisharma.persistence.GoogleUserDao" %>
-<%@ page import="com.tanwisharma.entity.GoogleUser" %><%--
+<%@ page import="com.tanwisharma.persistence.UserDao" %>
+<%@ page import="com.tanwisharma.entity.User" %>
+<%--
   Created by IntelliJ IDEA.
   User: student
   Date: 10/20/19
@@ -13,19 +14,23 @@
 </head>
 <body>
 <%
-    String name=(String)request.getParameter("name");
+    String first_name=(String)request.getParameter("first_name");
+    String last_name=(String)request.getParameter("last_name");
+    String user_name=(String)request.getParameter("user_name");
     String email=(String)request.getParameter("email");
-    String imag = (String)request.getParameter("imagurl");
-    GoogleUser googleUser = new GoogleUser();
-    googleUser.setName(name);
-    googleUser.setEmail(email);
-    GoogleUserDao googleUserDao = new GoogleUserDao();
-    googleUserDao.insert(googleUser);
+    String pass=(String)request.getParameter("pass");
+    User user = new User();
+    user.setFirst_name(first_name);
+    user.setLast_name(last_name);
+    user.setUser_name(user_name);
+    user.setEmail(email);
+    user.setPass(pass);
+    UserDao userDao = new UserDao();
+    userDao.insert(user);
 %>
 
-<%=name %>
-<%=googleUser.getName() %>
+<%=first_name %>
+<%=user.getFirst_name() %>
 <%=email %>
-<img src=<%=imag %> alt="profile" width="50" height="50">
 </body>
 </html>

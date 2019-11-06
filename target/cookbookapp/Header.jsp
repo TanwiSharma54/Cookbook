@@ -32,46 +32,25 @@
                                     Categories
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">All Recipes</a>
-                                    <a class="dropdown-item" href="#">Search by Ingredients</a>
-                                    <a class="dropdown-item" href="#">Add New Recipe</a>
-                                    <a class="dropdown-item" href="#">Add New Ingredients</a>
+                                    <a class="dropdown-item" href="Recipes.jsp">All Recipes</a>
+                                    <a class="dropdown-item" href="SearchByIngredients.jsp">Search by Ingredients</a>
+                                    <a class="dropdown-item" href="AddNewRecipe.jsp">Add New Recipe</a>
+                                    <a class="dropdown-item" href="AddNewIngredients.jsp">Add New Ingredients</a>
                                 </div>
                             </li>
 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Profile
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="admin.jsp">Admin</a>
+                                    <a class="dropdown-item" href="userRegistration.jsp">Sign Up</a>
+                                    <a class="dropdown-item" href="#">Sign Out</a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
-                    <!-- Google Sign In starts-->
-                    <div class="g-signin2" data-onsuccess="onSignIn" id="myP"></div>
-                    <img id="myImg"><br>
-                    <p id="name"></p>
-                    <div id="status">
-                    </div>
-                    <script type="text/javascript">
-                        function onSignIn(googleUser) {
-                            // window.location.href='success.jsp';
-                            var profile = googleUser.getBasicProfile();
-                            var imagurl=profile.getImageUrl();
-                            var name=profile.getName();
-                            var email=profile.getEmail();
-                            document.getElementById("myImg").src = imagurl;
-                            document.getElementById("name").innerHTML = name;
-                            document.getElementById("myP").style.visibility = "hidden";
-                            document.getElementById("status").innerHTML = '<a class="btn_1 d-none d-sm-block" href="success.jsp?email='+email+'&name='+name+'&imagurl='+imagurl+'"/>Continue with Google login</a></p>'
-                        }
-                    </script>
-                    <a href="login.jsp"><input type="button" value="Login" name="cancel"/></a>
-                    <button onclick="myFunction()">Sign Out</button>
-                    <script>
-                        function myFunction() {
-                            gapi.auth2.getAuthInstance().disconnect();
-                            location.reload();
-                        }
-                    </script>
-                    <!-- Google Sign In Ends-->
-                    <!-- <div class="menu_btn">
-                         <a href="#" class="btn_1 d-none d-sm-block">Login with Google</a>
-                     </div>-->
                 </nav>
             </div>
         </div>
