@@ -8,13 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="57a69d45-af62-4ff7-8e03-00fd6b459db2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/Header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" afterDir="false" />
     </list>
@@ -248,6 +243,7 @@
       <workItem from="1572884043155" duration="12125000" />
       <workItem from="1572939258952" duration="851000" />
       <workItem from="1573025699348" duration="5750000" />
+      <workItem from="1573053841246" duration="842000" />
     </task>
     <servers />
   </component>
