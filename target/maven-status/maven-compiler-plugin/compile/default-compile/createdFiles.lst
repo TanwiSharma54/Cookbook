@@ -1,11 +1,15 @@
+com/tanwisharma/persistence/RecipeDao.class
 com/tanwisharma/controller/ApiServletController.class
 com/tanwisharma/entity/Recipe.class
 com/tanwisharma/controller/AllRecipesController.class
+com/tanwisharma/service/RecipeSearchByIngredientsService.class
 com/tanwisharma/persistence/UserDao.class
+com/tanwisharma/controller/SearchByIngredientsController.class
 com/tanwisharma/persistence/SessionFactoryProvider.class
 com/tanwisharma/service/RecipeService.class
 com/tanwisharma/controller/login.class
 com/tanwisharma/controller/admin.class
 com/tanwisharma/entity/User.class
+com/tanwisharma/controller/AddNewRecipeController.class
 com/tanwisharma/controller/AddGoogleUser.class
 com/tanwisharma/controller/UserSignupServlet.class
