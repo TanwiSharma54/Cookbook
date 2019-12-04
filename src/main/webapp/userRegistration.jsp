@@ -74,9 +74,9 @@
 <!-- Header part end-->
 
 <!-- User sign up start-->
-<div>
+<div align="center">
     <h2>User Sign up page</h2>
-    <form action="userRegistration" method="post" align="center">
+    <form action="<%= request.getContextPath() %>/register" method="post" align="center">
         <table style="with: 50%">
             <tr>
                 <td>First Name</td>
@@ -98,7 +98,7 @@
 
             <tr>
                 <td>Password</td>
-                <td><input type="password" name="password" /></td>
+                <td><input type="password" name="pass" /></td>
             </tr>
         </table>
         <input type="submit" value="Submit" />

@@ -22,7 +22,7 @@
       <url-pattern>/admin.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>admin</role-name>
+      <role-name>user</role-name>
     </auth-constraint>
   </security-constraint>
 
@@ -32,15 +32,40 @@
       <url-pattern>/Recipes.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>admin</role-name>
       <role-name>user</role-name>
     </auth-constraint>
   </security-constraint>
 
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>SearchByIngredients</web-resource-name>
+      <url-pattern>/SearchByIngredients.jsp</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>user</role-name>
+    </auth-constraint>
+  </security-constraint>
 
-  <security-role>
-    <role-name>admin</role-name>
-  </security-role>
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>AddNewRecipe</web-resource-name>
+      <url-pattern>/AddNewRecipe.jsp</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>user</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>AddNewIngredients</web-resource-name>
+      <url-pattern>/AddNewIngredients.jsp</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>user</role-name>
+    </auth-constraint>
+  </security-constraint>
+
   <security-role>
     <role-name>user</role-name>
   </security-role>

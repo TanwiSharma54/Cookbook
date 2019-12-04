@@ -8,7 +8,7 @@ mysql> SET @@session.time_zone = '+00:00';
 Query OK, 0 rows affected (0.00 sec)
 
 mysql> SELECT @@global.time_zone, @@session.time_zone;
-
+uBUs4XoxU9UsEw
 ================================================
 touch initial
 
@@ -124,7 +124,7 @@ CREATE TABLE `role` (
   KEY `role_user_user_id_fk` (`user_id`),
   CONSTRAINT `role_user_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE
 );
-INSERT INTO `role` VALUES (1,'admin','tsharma',1), (2,'user','jvallaso',2);
+INSERT INTO `role` VALUES (1,'user','tsharma',1), (2,'user','jvallaso',2);
 
 CREATE TABLE `recipe` (
   `recipeId` int(20) NOT NULL,

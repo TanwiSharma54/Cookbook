@@ -3,12 +3,14 @@ package com.tanwisharma.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity(name = "User")
 @Table(name = "user")
-public class User {
+public class User implements Serializable {
+    private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")

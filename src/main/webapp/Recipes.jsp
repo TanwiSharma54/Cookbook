@@ -12,5 +12,10 @@
 </head>
 <body>
 <h2>All recipe page</h2>
+<form action="<%= request.getContextPath() %>/ApiServletController" method="get" align="center">
+
+    <input type="submit" value="Search" />
+</form>
+
 </body>
 </html>

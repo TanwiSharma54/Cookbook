@@ -75,7 +75,7 @@
 
 <!-- Login start-->
 <div>
-    <h2 align="center">Admin Page</h2>
+    <h2 align="center">User Profile</h2>
 </div>
 <%
     String user_name= request.getRemoteUser();

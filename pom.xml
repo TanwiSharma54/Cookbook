@@ -29,6 +29,7 @@
     <jupiter-version>5.0.0</jupiter-version>
     <maven.compiler.release>11</maven.compiler.release>
     <maven-surefire-plugin-version>2.19</maven-surefire-plugin-version>
+    <jersey-version>2.29.1</jersey-version>
   </properties>
 
   <dependencies>
@@ -100,6 +101,18 @@
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-c3p0</artifactId>
       <version>${hibernate-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.glassfish.jersey.core</groupId>
+      <artifactId>jersey-client</artifactId>
+      <version>${jersey-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.glassfish.jersey.inject</groupId>
+      <artifactId>jersey-hk2</artifactId>
+      <version>${jersey-version}</version>
     </dependency>
 
   </dependencies>

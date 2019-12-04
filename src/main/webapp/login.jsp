@@ -69,6 +69,7 @@
     <h2 align="center">Log In</h2>
     </br>
     </br>
+
     <FORM ACTION="j_security_check" METHOD="POST" align="center">
         <TABLE border="1px solid black" align="center">
             <TR>
