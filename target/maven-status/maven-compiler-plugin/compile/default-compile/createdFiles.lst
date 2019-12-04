@@ -1,6 +1,6 @@
-com/tanwisharma/controller/allRecipes.class
 com/tanwisharma/controller/ApiServletController.class
 com/tanwisharma/entity/Recipe.class
+com/tanwisharma/controller/AllRecipesController.class
 com/tanwisharma/persistence/UserDao.class
 com/tanwisharma/persistence/SessionFactoryProvider.class
 com/tanwisharma/service/RecipeService.class
