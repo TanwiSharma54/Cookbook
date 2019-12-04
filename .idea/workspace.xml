@@ -8,26 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57a69d45-af62-4ff7-8e03-00fd6b459db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/AddNewRecipeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/SearchByIngredientsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/persistence/RecipeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/RecipeSearchByIngredientsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/AddNewRecipe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AddNewRecipe.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Recipes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Recipes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SearchByIngredients.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/SearchByIngredients.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Cookbook.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/AllRecipesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/AllRecipesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/AddNewRecipe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/AddNewRecipe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/Recipes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/Recipes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/SearchByIngredients.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/SearchByIngredients.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/META-INF/Cookbook.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/AllRecipesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/AllRecipesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/userRegistration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userRegistration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/userdetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userdetails.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,9 +89,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="RecentsManager">
@@ -267,7 +252,7 @@
       <workItem from="1573053841246" duration="8277000" />
       <workItem from="1575477598118" duration="5695000" />
       <workItem from="1575486937201" duration="3855000" />
-      <workItem from="1575491290963" duration="6233000" />
+      <workItem from="1575491290963" duration="6915000" />
     </task>
     <servers />
   </component>

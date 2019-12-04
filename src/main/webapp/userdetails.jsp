@@ -8,6 +8,7 @@
     <title>Insert title here</title>
 </head>
 <body>
+<a class="nav-link" href="index.jsp">Home</a>
 <h1>User successfully registered!</h1>
 </body>
 </html>
