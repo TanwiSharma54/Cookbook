@@ -1,0 +1,6 @@
+
+|squid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "response".(’Ð˜çøÿÿÿÿ
+csquid:UselessImportCheck":Remove this unused import 'com.tanwisharma.entity.Recipe'.(ž‡‚µúÿÿÿÿ
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+Qsquid:S1118
+":Add a private constructor to hide the implicit public one.(¿´Îœ

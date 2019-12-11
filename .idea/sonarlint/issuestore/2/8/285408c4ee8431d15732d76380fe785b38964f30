@@ -1,0 +1,10 @@
+
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¬©·
+nsquid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÒÛõüÿÿÿÿ
+isquid:S00117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Âù„
+Bsquid:UselessImportCheck"Remove this duplicated import.(Ö§´
+Xsquid:UselessImportCheck"4Remove this unused import 'javax.persistence.Query'.(¢ğö
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+?squid:S1948"(Make "logger" transient or serializable.(æ×âÁ
+gsquid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(¿Öíûûÿÿÿÿ
+bsquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(á“±œ
