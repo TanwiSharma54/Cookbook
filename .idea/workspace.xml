@@ -8,20 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57a69d45-af62-4ff7-8e03-00fd6b459db2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55742722a19f3c085b5ae7021aa5386dccefbb61" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55742722a19f3c085b5ae7021aa5386dccefbb61" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignDocuments/importantContent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DesignDocuments/importantContent.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/RecipeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Recipes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Recipes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/Recipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/service/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/service/RecipeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/Recipes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/Recipes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/Recipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/service/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/service/RecipeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -271,6 +259,7 @@
       <workItem from="1576535053143" duration="6928000" />
       <workItem from="1576544554624" duration="4809000" />
       <workItem from="1576555966360" duration="634000" />
+      <workItem from="1576556715102" duration="206000" />
     </task>
     <servers />
   </component>
