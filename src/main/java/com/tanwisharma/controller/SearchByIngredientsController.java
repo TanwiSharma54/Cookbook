@@ -1,5 +1,6 @@
 package com.tanwisharma.controller;
 
+import com.tanwisharma.entity.IngredientsSearchResult;
 import com.tanwisharma.entity.Recipe;
 import com.tanwisharma.service.RecipeSearchByIngredientsService;
 import com.tanwisharma.service.RecipeService;
@@ -19,12 +20,9 @@ public class SearchByIngredientsController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
         response.setContentType("text/html;charset=UTF-8");
-
-        // List<Recipe> recipes = RecipeService.fetchRecipe(0, 50);
         String ingredients = request.getParameter("ingredients");
-        String recipes = RecipeSearchByIngredientsService.fetchRecipe(ingredients);
+        List<IngredientsSearchResult> recipes = RecipeSearchByIngredientsService.fetchRecipe(ingredients);
 
         request.setAttribute("recipes", recipes);
         request.getRequestDispatcher("SearchByIngredients.jsp").forward(request, response);

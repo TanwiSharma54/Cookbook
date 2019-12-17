@@ -40,7 +40,7 @@
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="Recipes.jsp">All Recipes</a>
                                     <a class="dropdown-item" href="SearchByIngredients.jsp">Search by Ingredients</a>
-                                    <a class="dropdown-item" href="AddNewRecipe.jsp">Add New Recipe</a>
+                                    <a class="dropdown-item" href="SearchRecipesbyNutrients.jsp">Add New Recipe</a>
                                     <a class="dropdown-item" href="AddNewIngredients.jsp">Add New Ingredients</a>
                                 </div>
                             </li>

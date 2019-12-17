@@ -21,70 +21,59 @@
 
 <body>
 <!--::header part start::-->
-<header class="main_menu">
+<c:import url="UserHeader.jsp" />
+<!-- Header part end-->
+<!-- breadcrumb start-->
+<section class="breadcrumb breadcrumb_bg">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"> <img src="img/cookBooklogo.png" alt="logo"> </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse main-menu-item justify-content-end"
-                         id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Categories
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="Recipes.jsp">All Recipes</a>
-                                    <a class="dropdown-item" href="SearchByIngredients.jsp">Search by Ingredients</a>
-                                    <a class="dropdown-item" href="AddNewRecipe.jsp">Add New Recipe</a>
-                                    <a class="dropdown-item" href="AddNewIngredients.jsp">Add New Ingredients</a>
-                                </div>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Profile
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="admin.jsp">Admin</a>
-                                    <a class="dropdown-item" href="userRegistration.jsp">Sign Up</a>
-                                    <a class="dropdown-item" href="index.jsp">Sign Out</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+        <div class="row">
+            <div class="col-lg-12" text-center>
+                <h2>Search recipes by ingredient page</h2>
             </div>
         </div>
     </div>
-</header>
-<!-- Header part end-->
-<h2>search by ingredients</h2>
+</section>
+<!-- breadcrumb start-->
+&nbsp;<div align="center">
 <form action="<%= request.getContextPath() %>/SearchByIngredientsController" method="GET" align="center">
-
-    <table style="with: 50%">
+    <table style="with: 50%;">
         <tr>
-            <td>Ingredient Name</td>
-            <td><input type="ingredients" name="ingredients" /></td>
+            <td>Enter Ingredient  <input type="ingredients" name="ingredients" /></td>
+            <td><input type="submit" value="Search" /></td>
         </tr>
     </table>
-    <input type="submit" value="search Recipes by ingredient" />
 </form>
+</div>
+<!--::recipe_part start::-->
+&nbsp;&nbsp;
+<section class="chefs_part blog_item_section padding_top:50px">
+    <div class="container">
+        <div class="row">
+            <c:forEach items="${recipes}" var="recipe">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                            <img src=${recipe.image} alt="">
+                        </div>
+                        <div class="single_blog_text text-center">
+                            <h3>${recipe.title}</h3>
+                            <div class="social_icon">
+                                <div class="social_icon">
+                                    <a href="#">
+                                        <span style="font-size:300%;color:red;">&hearts;</span>
+                                    </a>
+                                    <a href="#"> <span style="font-size:300%;color:green;alignment:center">&rightarrow;</span> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </c:forEach>
+        </div>
+    </div>
+</section>
+<!--::recipes_part start::-->
 
-<p><c:out value="${recipes}"/></p>
 <!-- jquery -->
 <c:import url="jqueryPlugins.jsp" />
 </body>

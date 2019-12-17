@@ -1,18 +1,25 @@
 package com.tanwisharma.service;
 
-import com.tanwisharma.entity.Recipe;
-import java.util.List;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.tanwisharma.entity.IngredientsSearchResult;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
+import java.util.Arrays;
+import java.util.List;
+
 public class RecipeSearchByIngredientsService {
-    public static String fetchRecipe(String ingredients)  {
+    public static List<IngredientsSearchResult> fetchRecipe(String ingredients) throws JsonProcessingException {
         Client client = ClientBuilder.newClient();
         WebTarget target =
                 client.target("https://api.spoonacular.com/recipes/findByIngredients?apiKey=3d9b9b507f5242119a52724610a22e79&ingredients="+ingredients);
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
-        return response;
+        ObjectMapper mapper = new ObjectMapper();
+        IngredientsSearchResult[] recipeNew = mapper.readValue(response, IngredientsSearchResult[].class);
+        List<IngredientsSearchResult> recipes = Arrays.asList(recipeNew);
+        return recipes;
     }
 }

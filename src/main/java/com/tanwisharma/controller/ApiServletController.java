@@ -2,6 +2,7 @@
 package com.tanwisharma.controller;
 
 import com.tanwisharma.entity.Recipe;
+import com.tanwisharma.entity.ResultsItem;
 import com.tanwisharma.service.RecipeService;
 import java.io.IOException;
 import java.util.List;
@@ -21,7 +22,7 @@ public class ApiServletController extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
 
        // List<Recipe> recipes = RecipeService.fetchRecipe(0, 50);
-        String recipes = RecipeService.fetchRecipe();
+        List<ResultsItem> recipes = RecipeService.fetchRecipe();
 
         request.setAttribute("recipes", recipes);
         request.getRequestDispatcher("Recipes.jsp").forward(request, response);
