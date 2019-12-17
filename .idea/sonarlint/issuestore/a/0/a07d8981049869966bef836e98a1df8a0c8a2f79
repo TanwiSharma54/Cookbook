@@ -1,6 +1,10 @@
 
-|squid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "response".(’Ğ˜çøÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(¿´Îœ
 csquid:UselessImportCheck":Remove this unused import 'com.tanwisharma.entity.Recipe'.(‡‚µúÿÿÿÿ
-Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
-Qsquid:S1118
-":Add a private constructor to hide the implicit public one.(¿´Îœ
+|squid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "response".(’Ğ˜çøÿÿÿÿ
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+bsquid:UselessImportCheck	"2Remove this unused import 'javax.json.JsonObject'.(ìâ²–øÿÿÿÿ8³¡¾ñ-
+bsquid:UselessImportCheck"2Remove this unused import 'javax.xml.crypto.Data'.(¦¿çˆıÿÿÿÿ8³¡¾ñ-
+_squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Field'.(„‡Áú8³¡¾ñ-
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8³¡¾ñ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ºÙßÅ8³¡¾ñ-

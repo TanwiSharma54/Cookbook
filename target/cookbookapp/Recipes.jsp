@@ -79,6 +79,7 @@
 </form>
 
 <p><c:out value="${recipes}"/></p>
+
 <!-- jquery -->
 <c:import url="jqueryPlugins.jsp" />
 </body>

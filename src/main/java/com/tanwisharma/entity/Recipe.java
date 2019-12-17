@@ -2,7 +2,6 @@ package com.tanwisharma.entity;
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
-
 @Entity(name = "Recipe")
 @Table(name = "Recipe")
 public class Recipe implements java.io.Serializable {
@@ -17,27 +16,27 @@ public class Recipe implements java.io.Serializable {
     @Column(name = "servings")
     private int servings;
     @Column(name = "imageUrl")
-    private String imageUrl;
+    private String imageUrls;
     @ManyToMany(fetch = FetchType.LAZY, mappedBy = "recipes")
     private Set<User> users = new HashSet<User>();
 
     public Recipe() {
     }
 
-    public Recipe(int recipeId, String title, String readyInMinutes, int servings, String imageUrl) {
+    public Recipe(int recipeId, String title, String readyInMinutes, int servings, String imageUrls) {
         this.recipeId = recipeId;
         this.title = title;
         this.readyInMinutes = readyInMinutes;
         this.servings = servings;
-        this.imageUrl = imageUrl;
+        this.imageUrls = imageUrls;
     }
 
-    public Recipe(int recipeId, String title, String readyInMinutes, int servings, String imageUrl, Set<User> users) {
+    public Recipe(int recipeId, String title, String readyInMinutes, int servings, String imageUrls, Set<User> users) {
         this.recipeId = recipeId;
         this.title = title;
         this.readyInMinutes = readyInMinutes;
         this.servings = servings;
-        this.imageUrl = imageUrl;
+        this.imageUrls = imageUrls;
         this.users = users;
     }
 
@@ -73,12 +72,12 @@ public class Recipe implements java.io.Serializable {
         this.servings = servings;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
+    public String getImageUrls() {
+        return imageUrls;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public void setImageUrls(String imageUrl) {
+        this.imageUrls = imageUrls;
     }
 
 
@@ -96,8 +95,10 @@ public class Recipe implements java.io.Serializable {
                 ", title='" + title + '\'' +
                 ", readyInMinutes='" + readyInMinutes + '\'' +
                 ", servings=" + servings +
-                ", imageUrl='" + imageUrl + '\'' +
+                ", imageUrls='" + imageUrls + '\'' +
                 ", users=" + users +
                 '}';
     }
+
+
 }

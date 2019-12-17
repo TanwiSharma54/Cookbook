@@ -155,3 +155,8 @@ INSERT INTO `userRecipe` VALUES (1, 1234);
 =======================================================================
 implemented jdbc authentication realm for admin/user login 8hrs
 /home/student/EnterpriseRepository/Cookbook
+
+
+<c:forEach items="${recipes}" var="item">
+    ${item.results.title}<br>
+</c:forEach>
