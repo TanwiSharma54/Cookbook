@@ -1,1 +1,6 @@
 com/tanwisharma/persistence/UserDaoTest.class
+com/tanwisharma/service/RecipeServiceTest.class
+com/tanwisharma/service/RecipeSearchByIngredientsServiceTest.class
+com/tanwisharma/persistence/FavoriteDaoTest.class
+com/tanwisharma/service/SearchRecipesbyNutrientsServiceTest.class
+com/tanwisharma/service/RecipeDetailServiceTest.class

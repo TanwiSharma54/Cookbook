@@ -35,7 +35,7 @@
 </section>
 <!-- breadcrumb start-->
 &nbsp;<!--::recipes_part start::-->
-<section class="blog_area single-post-area section_padding">
+<section class="blog_area single-post-area padding_top:50px">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 posts-list">
@@ -45,7 +45,7 @@
                     </div>
                     <div class="blog_details">
                         <h2>Recipe Name: ${title}</h2>
-                        <h2>Instructions: ${title}</h2>
+                        <h2>Instructions: </h2>
                         <p class="excert">
                             <c:forEach items="${recipeSteps}" var="recipeSteps">
                         <p>Step ${recipeSteps.number} : ${recipeSteps.step}</p>

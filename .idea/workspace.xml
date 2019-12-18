@@ -8,59 +8,120 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57a69d45-af62-4ff7-8e03-00fd6b459db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/RecipeDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/SearchRecipesbyNutrients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/EquipmentItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/IngredientsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/IngredientsSearchResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/Length.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/NutrientsSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/RecipeInstructions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/StepsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/UsedIngredientsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/RecipeDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/SearchRecipesbyNutrientsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/RecipeDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/UserHeader.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignDocuments/EnterpriseFinalDemo.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/AddToFavoriteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/RemoveFavoriteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/UserProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tanwisharma/persistence/FavoriteDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tanwisharma/service/RecipeDetailServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tanwisharma/service/RecipeSearchByIngredientsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tanwisharma/service/RecipeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tanwisharma/service/SearchRecipesbyNutrientsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/dump.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testUtils/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6dc982c8a63535f278c6f6f16aacbebb662343f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignDocuments/importantContent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DesignDocuments/importantContent.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/AddGoogleUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/AddNewRecipeController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/AllRecipesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/AllRecipesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/ApiServletController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/ApiServletController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/ApiServletController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/RecipeDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/RecipeDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/SearchByIngredientsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/SearchByIngredientsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/SearchRecipesbyNutrients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/SearchRecipesbyNutrients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/UserSignupServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/UserSignupServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/EquipmentItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/EquipmentItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/IngredientsItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/IngredientsItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/IngredientsSearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/IngredientsSearchResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/Favorite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/persistence/RecipeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/persistence/FavoriteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/persistence/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/persistence/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/RecipeDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/RecipeDetailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/RecipeSearchByIngredientsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/RecipeSearchByIngredientsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/RecipeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/AddNewRecipe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/SearchRecipesbyNutrients.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/SearchRecipesbyNutrientsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/service/SearchRecipesbyNutrientsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AddNewIngredients.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Error.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/RecipeDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RecipeDetails.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Recipes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Recipes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/SearchByIngredients.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/SearchByIngredients.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/SearchRecipesbyNutrients.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/SearchRecipesbyNutrients.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/UserHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/UserHeader.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/userRegistration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userRegistration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/userdetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userdetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tanwisharma/persistence/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tanwisharma/persistence/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/AddGoogleUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/AddNewRecipeController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/AllRecipesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/AllRecipesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/ApiServletController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/ApiServletController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/ApiServletController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/RecipeDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/RecipeDetail.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/SearchByIngredientsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/SearchByIngredientsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/SearchRecipesbyNutrients.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/SearchRecipesbyNutrients.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/UserSignupServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/UserSignupServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/EquipmentItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/EquipmentItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/IngredientsItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/IngredientsItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/IngredientsSearchResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/IngredientsSearchResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/Recipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/persistence/RecipeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/persistence/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/persistence/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/service/RecipeDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/service/RecipeDetailService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/service/RecipeSearchByIngredientsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/service/RecipeSearchByIngredientsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/service/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/service/RecipeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/service/SearchRecipesbyNutrientsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/service/SearchRecipesbyNutrientsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/AddNewRecipe.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/AddNewIngredients.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/Error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/Error.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/Header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/RecipeDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/RecipeDetails.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/Recipes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/Recipes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/SearchByIngredients.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/SearchByIngredients.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/SearchRecipesbyNutrients.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/SearchRecipesbyNutrients.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/UserHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/UserHeader.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/AddGoogleUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/AddNewRecipeController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/AllRecipesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/AllRecipesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/ApiServletController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/ApiServletController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/ApiServletController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/RecipeDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/RecipeDetail.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/SearchByIngredientsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/SearchByIngredientsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/SearchRecipesbyNutrients.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/SearchRecipesbyNutrients.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/UserSignupServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/UserSignupServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/controller/login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/EquipmentItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/EquipmentItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/IngredientsItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/IngredientsItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/IngredientsSearchResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/IngredientsSearchResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/Recipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/persistence/RecipeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/persistence/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/persistence/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/service/RecipeDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/service/RecipeDetailService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/service/RecipeSearchByIngredientsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/service/RecipeSearchByIngredientsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/service/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/service/RecipeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/service/SearchRecipesbyNutrientsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/com/tanwisharma/service/SearchRecipesbyNutrientsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cookbookapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cookbookapp/userRegistration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/userRegistration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cookbookapp/userdetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cookbookapp/userdetails.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/persistence/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/persistence/UserDaoTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,9 +149,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -129,7 +190,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DesignDocuments" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -145,6 +206,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tanwisharma.service" />
       <recent name="com.tanwisharma.persistence" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -152,6 +214,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DesignDocuments" />
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/cookbookAppScreenDesigns" />
@@ -170,6 +233,22 @@
     </option>
   </component>
   <component name="RunManager" selected="TomEE Server.tomcat">
+    <configuration name="UserDaoTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cookbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tanwisharma.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tanwisharma.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.tanwisharma.persistence.UserDaoTest" />
+      <option name="METHOD_NAME" value="getById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cookbookapp [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -271,6 +350,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.getById" />
         <item itemvalue="Maven.cookbookapp [package]" />
       </list>
     </recent_temporary>
@@ -314,6 +394,12 @@
       <workItem from="1576561546930" duration="12104000" />
       <workItem from="1576574961982" duration="15038000" />
       <workItem from="1576594922171" duration="12193000" />
+      <workItem from="1576608369767" duration="8755000" />
+      <workItem from="1576622469306" duration="4608000" />
+      <workItem from="1576635257243" duration="23772000" />
+      <workItem from="1576663429622" duration="17438000" />
+      <workItem from="1576694768443" duration="471000" />
+      <workItem from="1576696063330" duration="8506000" />
     </task>
     <servers />
   </component>
@@ -337,14 +423,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/template-header.jsp</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TomeeConfiguration">
+        <watch expression="favorites" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Cookbook$UserDaoTest_getById.ic" NAME="UserDaoTest.getById Coverage Results" MODIFIED="1576695280154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tanwisharma.persistence.*</FILTER>
+    </SUITE>
   </component>
 </project>

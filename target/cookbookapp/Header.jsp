@@ -32,10 +32,9 @@
                                     Categories
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="Recipes.jsp">All Recipes</a>
+                                    <a class="dropdown-item" href="AllRecipesController">All Recipes</a>
                                     <a class="dropdown-item" href="SearchByIngredients.jsp">Search by Ingredients</a>
                                     <a class="dropdown-item" href="SearchRecipesbyNutrients.jsp">Search Recipes by Nutrients</a>
-                                    <a class="dropdown-item" href="AddNewIngredients.jsp">Add New Ingredients</a>
                                 </div>
                             </li>
 
@@ -44,9 +43,9 @@
                                     Profile
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="admin.jsp">User</a>
+                                    <a class="dropdown-item" href="UserProfileController">User</a>
                                     <a class="dropdown-item" href="userRegistration.jsp">Sign Up</a>
-                                    <a class="dropdown-item" href="#">Sign Out</a>
+                                    <a class="dropdown-item" href="index.jsp">Sign Out</a>
                                 </div>
                             </li>
                         </ul>

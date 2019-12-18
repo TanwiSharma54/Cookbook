@@ -9,6 +9,7 @@
 </head>
 <body>
 <a class="nav-link" href="index.jsp">Home</a>
+<button type="button" name="back" onclick="history.back()">back</button>
 <h1>User successfully registered!</h1>
 </body>
 </html>

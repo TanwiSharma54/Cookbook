@@ -10,8 +10,18 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import java.util.Arrays;
 import java.util.List;
-
+/**
+ * A service class for searching recipe by nutrient using rest api.
+ *
+ * @author tanwi
+ */
 public class SearchRecipesbyNutrientsService {
+    /**
+     * @param nutrientsType
+     * @param limit
+     * @return
+     * @throws JsonProcessingException
+     */
     public static List<NutrientsSearch> fetchRecipe(String nutrientsType, String limit) throws JsonProcessingException {
         Client client = ClientBuilder.newClient();
         WebTarget target =

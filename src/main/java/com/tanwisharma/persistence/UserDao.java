@@ -15,7 +15,11 @@ import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.io.Serializable;
 import java.util.List;
-
+/**
+ * A persistance class for performing CRUD on user.
+ *
+ * @author tanwi
+ */
 public class UserDao implements Serializable {
     private final Logger logger = LogManager.getLogger(this.getClass());
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
@@ -23,12 +27,17 @@ public class UserDao implements Serializable {
     /**
      * Get GoogleUser by id
      */
-    public User getById(int user_id) {
+    public User getById(int id) {
         Session session = sessionFactory.openSession();
-        User user = session.get( User.class, user_id);
+        User user = session.get( User.class, id);
         session.close();
         return user;
     }
+
+    /**
+     * @param user_name
+     * @return
+     */
     //getUserByUser_Name
     public User getByUsername(String user_name) {
 
@@ -50,37 +59,38 @@ public class UserDao implements Serializable {
      * update User
      * @param user to be inserted or updated
      */
-   /* public void saveOrUpdate(User user) {
+    public void saveOrUpdate(User user) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(user);
         transaction.commit();
         session.close();
-    }*/
+    }
 
     /**
      * insert User
      * @param user to be inserted
      */
     public int insert(User user) {
-        int user_id = 0;
+        int id = 0;
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        user_id = (int)session.save(user);
+        id = (int)session.save(user);
         transaction.commit();
         session.close();
-        return user_id;
+        return id;
     }
 
     /**
      * Delete a User
      * @param user to be deleted
      */
-   /* public void delete(User user) {
+    public void delete(User user) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
         session.delete(user);
         transaction.commit();
         session.close();
-    }*/
+    }
+
 }

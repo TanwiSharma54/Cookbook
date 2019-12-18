@@ -15,8 +15,6 @@ W
 Ksrc/main/java/com/tanwisharma/controller/SearchByIngredientsController.java,c/e/ceec02dcaba9cf2d0a9928263836dfa55ec3f37d
 {
 Ksrc/main/java/com/tanwisharma/service/RecipeSearchByIngredientsService.java,0/a/0a5136c9a62601948a6686bf5f66d0da8fa9628e
-`
-0src/main/java/com/tanwisharma/entity/Recipe.java,6/d/6dc982c8a63535f278c6f6f16aacbebb662343f4
 ^
 .src/main/java/com/tanwisharma/entity/User.java,5/5/55742722a19f3c085b5ae7021aa5386dccefbb61
 7

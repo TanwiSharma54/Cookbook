@@ -1,12 +1,14 @@
 package com.tanwisharma.entity;
-
 import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
-
+/**
+ * A Entity class for User.
+ *
+ * @author tanwi
+ */
 @Entity(name = "User")
 @Table(name = "user")
 public class User implements Serializable {
@@ -15,7 +17,7 @@ public class User implements Serializable {
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")
     @Column(name = "user_id")
-    private int user_id ;
+    private int id ;
     @Column(name = "first_name")
     private String first_name;
     @Column(name = "last_name")
@@ -26,109 +28,148 @@ public class User implements Serializable {
     private String email;
     @Column(name = "pass")
     private String pass;
-    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JoinTable(name = "userRecipe", joinColumns = {
-            @JoinColumn(name = "user_id", nullable = false, updatable = false) },
-            inverseJoinColumns = { @JoinColumn(name = "recipeId",
-                    nullable = false, updatable = false) })
-    private Set<Recipe> recipes = new HashSet<Recipe>();
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Favorite> favorites = new HashSet<>();
 
     public User() {
     }
 
-    public User(int user_id, String first_name, String last_name, String user_name, String email, String pass) {
-        this.user_id = user_id;
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.user_name = user_name;
-        this.email = email;
-        this.pass = pass;
+    /**
+     * Gets id.
+     *
+     * @return the id
+     */
+    public int getId() {
+        return id;
     }
 
-    public User(String first_name, String last_name, String user_name, String email, String pass, Set<Recipe> recipes) {
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.user_name = user_name;
-        this.email = email;
-        this.pass = pass;
-        this.recipes = recipes;
+
+    /**
+     * Sets id.
+     *
+     * @param id the id
+     */
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public User(String first_name, String last_name, String user_name, String email, String pass) {
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.user_name = user_name;
-        this.email = email;
-        this.pass = pass;
-    }
-
-    public int getUser_id() {
-        return user_id;
-    }
-
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
-    }
-
+    /**
+     * @return
+     */
     public String getFirst_name() {
         return first_name;
     }
 
+    /**
+     * @param first_name
+     */
     public void setFirst_name(String first_name) {
         this.first_name = first_name;
     }
 
+    /**
+     * @return
+     */
     public String getLast_name() {
         return last_name;
     }
 
+    /**
+     * @param last_name
+     */
     public void setLast_name(String last_name) {
         this.last_name = last_name;
     }
 
+    /**
+     * @return
+     */
     public String getUser_name() {
         return user_name;
     }
 
+    /**
+     * @param user_name
+     */
     public void setUser_name(String user_name) {
         this.user_name = user_name;
     }
 
+    /**
+     * @return
+     */
     public String getEmail() {
         return email;
     }
 
+    /**
+     * @param email
+     */
     public void setEmail(String email) {
         this.email = email;
     }
 
+    /**
+     * @return
+     */
     public String getPass() {
         return pass;
     }
 
+    /**
+     * @param pass
+     */
     public void setPass(String pass) {
         this.pass = pass;
     }
 
-
-    public Set<Recipe> getRecipes() {
-        return recipes;
+    /**
+     * @return
+     */
+    public Set<Favorite> getFavorite() {
+        return favorites;
     }
 
-    public void setRecipes(Set<Recipe> recipes) {
-        this.recipes = recipes;
+    /**
+     * @param favorites
+     */
+    public void setFavorite(Set<Favorite> favorites) {
+        this.favorites = favorites;
+    }
+    /**
+     * Add order.
+     *
+     * @param favorite the order
+     */
+    public void addFavorite(Favorite favorite) {
+        favorites.add(favorite);
+        favorite.setUser(this);
     }
 
+    /**
+     * Remove order.
+     *
+     * @param favorite the order
+     */
+    public void removeFavorite(Favorite favorite) {
+        favorites.remove(favorite);
+        favorite.setUser(null);
+    }
+
+    /**
+     * @return
+     */
     @Override
     public String toString() {
         return "User{" +
-                "user_id=" + user_id +
+                "id=" + id +
                 ", first_name='" + first_name + '\'' +
                 ", last_name='" + last_name + '\'' +
                 ", user_name='" + user_name + '\'' +
                 ", email='" + email + '\'' +
                 ", pass='" + pass + '\'' +
-                ", recipes=" + recipes +
+                ", favorites=" + favorites +
                 '}';
     }
+
 }

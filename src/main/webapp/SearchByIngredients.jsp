@@ -59,10 +59,10 @@
                             <h3>${recipe.title}</h3>
                             <div class="social_icon">
                                 <div class="social_icon">
-                                    <a href="#">
+                                    <a href="AddToFavoriteController?recipeId=${recipe.id}&title=${recipe.title}">
                                         <span style="font-size:300%;color:red;">&hearts;</span>
                                     </a>
-                                    <a href="#"> <span style="font-size:300%;color:green;alignment:center">&rightarrow;</span> </a>
+                                    <a href="RecipeDetail?recipeId=${recipe.id}&title=${recipe.title}&image=${recipe.image}"> <span style="font-size:300%;color:green;alignment:center">&rightarrow;</span> </a>
                                 </div>
                             </div>
                         </div>

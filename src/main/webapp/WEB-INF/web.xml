@@ -28,8 +28,8 @@
 
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>Recipes</web-resource-name>
-      <url-pattern>/Recipes.jsp</url-pattern>
+      <web-resource-name>AllRecipesController</web-resource-name>
+      <url-pattern>/AllRecipesController</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>user</role-name>

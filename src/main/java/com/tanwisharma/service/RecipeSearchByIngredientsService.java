@@ -1,17 +1,24 @@
 package com.tanwisharma.service;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tanwisharma.entity.IngredientsSearchResult;
-
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import java.util.Arrays;
 import java.util.List;
-
+/**
+ * A service class for searching recipe by ingedients.
+ *
+ * @author tanwi
+ */
 public class RecipeSearchByIngredientsService {
+    /**
+     * @param ingredients
+     * @return
+     * @throws JsonProcessingException
+     */
     public static List<IngredientsSearchResult> fetchRecipe(String ingredients) throws JsonProcessingException {
         Client client = ClientBuilder.newClient();
         WebTarget target =

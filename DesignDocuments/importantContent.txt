@@ -1,6 +1,7 @@
 //cookbookapp database name
 * CREATE DATABASE cookbookapp;
-
+chmod 400 /home/student/EnterpriseRepository/Cookbook/DesignDocuments/EnterpriseFinalDemo.pem
+ssh -i "/home/student/Downloads/EnterpriseFinalDemo.pem" ubuntu@ec2-3-137-58-197.us-east-2.compute.amazonaws.com
 2> mysql> SET @@global.time_zone = '+00:00';
 Query OK, 0 rows affected (0.00 sec)
 
@@ -112,7 +113,8 @@ CREATE TABLE `user` (
   UNIQUE KEY `user_id_uindex` (`user_id`)
 );
 
-INSERT INTO `user` VALUES (1,'Tanwi', 'Sharma', 'tsharma', 'tsharma@gmail.com', 'adminpassword'),(2,'John', 'Vallso', 'jvallaso', 'jv@gmail.com', 'userpassword');
+INSERT INTO `user` VALUES (1,'Tanwi', 'Sharma', 'tsharma', 'tsharma@gmail.com', 'userpassword'),(2,'John', 'Vallso', 'jvallaso', 'jv@gmail.com', 'userpassword');
+INSERT INTO `user` VALUES (3,'Paula', 'Waite', 'pwaite', 'tsharma@gmail.com', 'userpassword'),(4,'Alex', 'Vallso', 'alexHonda', 'jv@gmail.com', 'userpassword');
 
 CREATE TABLE `role` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -125,7 +127,7 @@ CREATE TABLE `role` (
   CONSTRAINT `role_user_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE
 );
 INSERT INTO `role` VALUES (1,'user','tsharma',1), (2,'user','jvallaso',2);
-
+INSERT INTO `role` VALUES (3,'user','pwaite',3), (4,'user','alexHonda',4);
 CREATE TABLE `recipe` (
   `recipeId` int(20) NOT NULL,
   `title` varchar(25) DEFAULT NULL,
@@ -157,36 +159,39 @@ implemented jdbc authentication realm for admin/user login 8hrs
 </c:forEach>
 
 =======================================
-
-<!-- Add New Recipe-->
-<div align="center">
-    <h2>Add New Recipe page</h2>
-    <form action="<%= request.getContextPath() %>/AddNewRecipeController" method="post" align="center">
-        <table style="with: 50%">
-            <tr>
-                <td>Recipe Id</td>
-                <td><input type="text" name="id" /></td>
-            </tr>
-            <tr>
-                <td>Recipe Name</td>
-                <td><input type="text" name="title" /></td>
-            </tr>
-            <tr>
-                <td>Servings</td>
-                <td><input type="text" name="servings" /></td>
-            </tr>
-
-            <tr>
-                <td>Ready In Minutes</td>
-                <td><input type="text" name="readyInMinutes" /></td>
-            </tr>
-
-            <tr>
-                <td>Enter Image URL</td>
-                <td><input type="text" name="imageUrls" /></td>
-            </tr>
-        </table>
-        <input type="submit" value="Add Recipe" />
+https://spoonacular.com/food-api/docs
+===================================
+&nbsp;
+<div margin="3px">
+    <form action="<%= request.getContextPath() %>/AllRecipesController" method="GET" align="center">
+        <input type="submit" value="Get All Recipes" />
     </form>
-
 </div>
+
+
+create table if not exists favorite
+(
+    id int auto_increment
+        primary key,
+    recipeId varchar(64) null,
+    title varchar(64) null,
+    imageUrl varchar(120) null,
+    user_id int null,
+    constraint favorites_user_user_id_fk
+        foreign key (user_id) references user (user_id)
+            on update cascade on delete cascade
+);
+
+DROP TABLE IF EXISTS `favorite`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `favorite` (
+  `favorite_id` int(11) NOT NULL AUTO_INCREMENT,
+  `recipeId` varchar(20) DEFAULT NULL,
+  `title` varchar(100) DEFAULT NULL,
+  `user_id` int(11) NOT NULL,
+  PRIMARY KEY (`favorite_id`),
+  UNIQUE KEY `favorites_id_uindex` (`favorite_id`),
+  KEY `favorites_user_id_fk` (`user_id`),
+  CONSTRAINT `favorites_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (user_id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;

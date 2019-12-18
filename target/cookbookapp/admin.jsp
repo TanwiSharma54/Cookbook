@@ -23,24 +23,39 @@
 <!--::header part start::-->
 <c:import url="UserHeader.jsp" />
 <!-- Header part end-->
-
 <!-- Login start-->
-<%
-    String user_name= request.getRemoteUser();
-    User user = new User();
-    user.setUser_name(user_name);
-    UserDao userDao = new UserDao();
-    user = userDao.getByUsername(user_name);
-%>
 <div>
-<h3 align="center">Welcome </h3>
-<h3 align="center">
-    <%=user.getFirst_name() %>
-    <%=user.getLast_name() %>
-</h3>
+<h3 align="center">Welcome ${userName}</h3>
 </div>
-
 <!-- Login-->
+<!--::recipe_part start::-->
+<section class="chefs_part blog_item_section padding_top:50px">
+    <div class="container">
+        <div class="row">
+            <c:forEach items="${recipes}" var="recipes">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="single_blog_text text-center">
+                            <h3>${recipes.title}</h3>
+                            <div class="social_icon">
+                                <div class="social_icon">
+                                    <a href="RemoveFavoriteController?favId=${recipes.id}">
+                                        <span style="font-size:400%;color:red;">-</span>
+                                    </a>
+                                    <a href="RecipeDetail?recipeId=${recipes.recipeId}&title=${recipes.title}"> <span style="font-size:300%;color:green;alignment:center">&uparrow;</span> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </c:forEach>
+        </div>
+    </div>
+</section>
+<!--::recipes_part start::-->
 
 <!-- jquery -->
 <c:import url="jqueryPlugins.jsp" />

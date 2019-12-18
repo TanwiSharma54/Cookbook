@@ -1,12 +1,9 @@
 package com.tanwisharma.controller;
 
-import com.tanwisharma.entity.IngredientsSearchResult;
 import com.tanwisharma.entity.NutrientsSearch;
-import com.tanwisharma.entity.Recipe;
-import com.tanwisharma.service.RecipeSearchByIngredientsService;
-import com.tanwisharma.service.RecipeService;
 import com.tanwisharma.service.SearchRecipesbyNutrientsService;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.io.IOException;
 import java.util.List;
 import javax.servlet.ServletException;
@@ -14,12 +11,21 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import javax.servlet.annotation.WebServlet;
-
+/**
+ * A controller class to search recipes by nutrients.
+ *
+ * @author tanwi
+ */
 @WebServlet(name = "SearchRecipesbyNutrients", urlPatterns = {"/SearchRecipesbyNutrients"})
 public class SearchRecipesbyNutrients extends HttpServlet {
+    private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

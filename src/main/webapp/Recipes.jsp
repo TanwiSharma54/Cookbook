@@ -33,14 +33,7 @@
         </div>
     </div>
 </section>
-<!-- breadcrumb start-->
-&nbsp;
-<div margin="3px">
-    <form action="<%= request.getContextPath() %>/AllRecipesController" method="GET" align="center">
-        <input type="submit" value="Get All Recipes" />
-    </form>
-</div>
-&nbsp;&nbsp;
+<!-- breadcrumb start-->&nbsp;&nbsp;
 <!--::recipe_part start::-->
 <section class="chefs_part blog_item_section padding_top:50px">
     <div class="container">
@@ -57,7 +50,7 @@
                             <p>servings : ${recipe.servings}</p>
                             <div class="social_icon">
                                 <div class="social_icon">
-                                    <a href="#">
+                                    <a href="AddToFavoriteController?recipeId=${recipe.id}&title=${recipe.title}">
                                         <span style="font-size:300%;color:red;">&hearts;</span>
                                     </a>
                                     <a href="RecipeDetail?recipeId=${recipe.id}&title=${recipe.title}&image=${recipe.image}"> <span style="font-size:300%;color:green;alignment:center">&rightarrow;</span> </a>

@@ -9,18 +9,31 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
+/**
+ * A controller class for user registration.
+ *
+ * @author tanwi
+ */
 @WebServlet("/register")
 public class UserSignupServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private UserDao userDao;
 
+    /**
+     * init method
+     */
     public void init() {
         userDao = new UserDao();
     }
+
+    /**
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
         String first_name = request.getParameter("first_name");
         String last_name = request.getParameter("last_name");
         String user_name = request.getParameter("user_name");
@@ -33,14 +46,12 @@ public class UserSignupServlet extends HttpServlet {
         user.setUser_name(user_name);
         user.setEmail(email);
         user.setPass(pass);
-
         try {
             userDao.insert(user);
         } catch (Exception e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
         response.sendRedirect("userdetails.jsp");
     }
+
 }
