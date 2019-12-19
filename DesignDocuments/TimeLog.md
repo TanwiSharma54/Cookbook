@@ -18,14 +18,14 @@
 | 10/22/19| Add user_recipe table to cookbookapp database | 1 | |
 | 10/22/19| Add Recipe.java entity class | 1 | |
 | 10/22/19| Implemented many-to-many relationship between GoogleUser and Recipe table | 2 | |
-|  |  |  | |
-|  |  |  | |
-|  |  |  | |
-|  |  |  | |
-|  |  |  | |
-|  |  |  | |
-|  |  |  | |
-|  |  |  | |
+| 10/22/19| Implemented Spoonacular recipe search api. I Created Recipe page and display List of Recipe |12 | |
+| 10/28/19| Implemented recipe search rest api by entered ingredient. Parsed JSON to java object. Display resul on jsp. |6 | |
+| 11/04/19| mplemented recipe search rest api by entered nutrients. Parsed JSON to java object. Display resul on jsp. |3  | |
+| 11/11/19| Implemented Add function that allow user to add favorite recipe to the logged in user profile. Displyed that favorite list on user page . | 2 | |
+| 11/18/19| Implemented Remove function that allow user to remove favorite recipe from the logged in user profile. Displyed that updated favorite list on user page . | 8 | |
+| 11/15/19| Trying to fix user role, but not completed yet | 2 | |
+| 12/19/19| Still role is not fixed, working on | 1 | |
+| |  |  | |
 |  |  |  | |
 |  |  |  | |
 |  |  |  | |
