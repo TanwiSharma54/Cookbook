@@ -124,5 +124,5 @@ Worked on Handelling Exceptions.
 Week 14
 11/15/2019 - 2 hours
 
-Tasks Completed:
+Tasks Not Completed:
 Trying to fix user role, but not completed yet.
