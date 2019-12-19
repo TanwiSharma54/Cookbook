@@ -67,3 +67,62 @@ Implemented many-to-many relationship between GoogleUser and Recipe table.
 Generated ER Diagram.
 
 
+Week 8
+10/21/2019 - 12 hours
+
+Tasks Completed:
+
+Implemented Spoonacular recipe search api.
+I Created Recipe page and display List of Recipe.
+
+
+Week 9
+28/16/2019 - 6 hours
+
+Tasks Completed:
+
+Implemented recipe search rest api by entered ingredient.
+Parsed JSON to java object.
+Display resul on jsp.
+
+
+Week 10
+11/04/2019 - 3 hours
+
+Tasks Completed:
+
+Implemented recipe search rest api by entered nutrients.
+Parsed JSON to java object.
+Display resul on jsp.
+
+
+Week 11
+11/11/2019 - 2 hours
+
+Tasks Completed:
+
+Implemented Add function that allow user to add favorite recipe to the logged in user profile.
+Displyed that favorite list on user page .
+
+
+
+Week 12
+11/18/2019 - 2 hours
+
+Tasks Completed:
+
+Implemented Remove function that allow user to remove favorite recipe from the logged in user profile.
+Displyed that updated favorite list on user page .
+
+
+Week 13
+11/25/2019 - 2 hours
+
+Tasks Completed:
+Worked on Handelling Exceptions.
+
+Week 14
+11/15/2019 - 2 hours
+
+Tasks Completed:
+Trying to fix user role, but not completed yet.
