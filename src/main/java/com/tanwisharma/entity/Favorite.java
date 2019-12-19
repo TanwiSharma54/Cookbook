@@ -31,6 +31,17 @@ public class Favorite implements java.io.Serializable {
     }
 
     /**
+     * @param recipeId
+     * @param title
+     * @param user
+     */
+    public Favorite(String recipeId, String title, User user) {
+        this.recipeId = recipeId;
+        this.title = title;
+        this.user = user;
+    }
+
+    /**
      * @return id
      */
     public int getId() {

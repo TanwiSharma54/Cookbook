@@ -22,6 +22,10 @@ class UserDaoTest {
         Database database = Database.getInstance();
         dao = new UserDao();
     }
+
+    /**
+     * Verify successful user by id
+     */
     @Test
     void getByIdTest() {
         User user = dao.getById(1);
@@ -29,11 +33,17 @@ class UserDaoTest {
         assertEquals("Tanwi", user.getFirst_name());
     }
 
+    /**
+     * Verify successful user by name
+     */
     @Test
     void getByUsernameTest() {
         User user = dao.getByUsername("tsharma");
         assertEquals("Tanwi", user.getFirst_name());
     }
+    /**
+     * Verify successful update of user
+     */
     @Test
     void saveOrUpdate() {
         String newLastName = "Bing";
@@ -43,7 +53,9 @@ class UserDaoTest {
         User retrievedUser = dao.getById(6);
         assertEquals(newLastName, retrievedUser.getLast_name());
     }
-
+    /**
+     * Verify successful insertion of user
+     */
     @Test
     void insert() {
         User newAuthor = new User("Chandler", "Bing","chandlerbing","cbing@mail","userrp");
@@ -52,7 +64,9 @@ class UserDaoTest {
         assertNotNull(insertedAuthor);
         assertEquals("Chandler", insertedAuthor.getFirst_name());
     }
-
+    /**
+     * Verify successful delete of user
+     */
     @Test
     void delete() {
         dao.delete(dao.getById(6));

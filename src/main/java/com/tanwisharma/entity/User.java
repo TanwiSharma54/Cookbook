@@ -48,6 +48,14 @@ public class User implements Serializable {
         this.email = email;
         this.pass = pass;
     }
+    public User(int id, String first_name, String last_name, String user_name, String email, String pass) {
+        this.id = id;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.user_name = user_name;
+        this.email = email;
+        this.pass = pass;
+    }
 
     /**
      * Gets id.
