@@ -44,7 +44,6 @@ public class UserDao implements Serializable {
         logger.debug("Searching for: {}", user_name);
 
         Session session = sessionFactory.openSession();
-
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<User> query = builder.createQuery(User.class);
         Root<User> root = query.from(User.class);

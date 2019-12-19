@@ -35,6 +35,21 @@ public class User implements Serializable {
     }
 
     /**
+     * @param first_name
+     * @param last_name
+     * @param user_name
+     * @param email
+     * @param pass
+     */
+    public User(String first_name, String last_name, String user_name, String email, String pass) {
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.user_name = user_name;
+        this.email = email;
+        this.pass = pass;
+    }
+
+    /**
      * Gets id.
      *
      * @return the id

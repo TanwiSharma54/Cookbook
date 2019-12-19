@@ -31,8 +31,6 @@ public class AllRecipesController extends HttpServlet {
             throws ServletException, IOException {
 
         response.setContentType("text/html;charset=UTF-8");
-
-        // List<Recipe> recipes = RecipeService.fetchRecipe(0, 50);
         List<ResultsItem> recipes = RecipeService.fetchRecipe();
 
         request.setAttribute("recipes", recipes);

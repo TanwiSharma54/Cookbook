@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.tanwisharma.service.RecipeDetailServiceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in com.tanwisharma.service.RecipeDetailServiceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.tanwisharma.service.RecipeDetailServiceTest
