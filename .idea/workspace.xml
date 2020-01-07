@@ -7,48 +7,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57a69d45-af62-4ff7-8e03-00fd6b459db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/persistence/RoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignDocuments/TimeLog.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignDocuments/TimeLog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignDocuments/WeeklyReflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/DesignDocuments/WeeklyReflection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/UserSignupServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/controller/UserSignupServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanwisharma/persistence/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanwisharma/persistence/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tanwisharma/persistence/FavoriteDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tanwisharma/persistence/FavoriteDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tanwisharma/persistence/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tanwisharma/persistence/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/UserSignupServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/controller/UserSignupServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/Favorite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/Favorite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tanwisharma/persistence/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tanwisharma/persistence/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.FavoriteDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.FavoriteDaoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.persistence.UserDaoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.service.RecipeDetailServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.service.RecipeSearchByIngredientsServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.service.RecipeServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tanwisharma.service.SearchRecipesbyNutrientsServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.FavoriteDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.FavoriteDaoTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.persistence.UserDaoTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.service.RecipeDetailServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.service.RecipeSearchByIngredientsServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.service.RecipeServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.tanwisharma.service.SearchRecipesbyNutrientsServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/persistence/FavoriteDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/persistence/FavoriteDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/persistence/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/persistence/UserDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/service/RecipeDetailServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/service/RecipeSearchByIngredientsServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/service/RecipeServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/service/SearchRecipesbyNutrientsServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/testUtils/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tanwisharma/testUtils/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hibernate.cfg.xml" afterDir="false" />
-    </list>
+    <list default="true" id="57a69d45-af62-4ff7-8e03-00fd6b459db2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Rest_Api_implemented" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -370,6 +329,7 @@
       <workItem from="1576716427600" duration="19004000" />
       <workItem from="1576780477471" duration="8489000" />
       <workItem from="1577412477723" duration="1691000" />
+      <workItem from="1578421868758" duration="855000" />
     </task>
     <servers />
   </component>
