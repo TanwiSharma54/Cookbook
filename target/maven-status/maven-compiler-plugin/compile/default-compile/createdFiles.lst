@@ -3,6 +3,7 @@ com/tanwisharma/controller/AllRecipesController.class
 com/tanwisharma/controller/RecipeDetail.class
 com/tanwisharma/service/RecipeSearchByIngredientsService.class
 com/tanwisharma/entity/IngredientsSearchResult.class
+com/tanwisharma/entity/Role.class
 com/tanwisharma/persistence/UserDao.class
 com/tanwisharma/controller/SearchByIngredientsController.class
 com/tanwisharma/entity/IngredientsItem.class

@@ -1,5 +1,6 @@
 package com.tanwisharma.persistence;
 
+import com.tanwisharma.entity.Role;
 import com.tanwisharma.entity.User;
 import com.tanwisharma.entity.User;
 import org.apache.logging.log4j.LogManager;

@@ -1,8 +1,1 @@
--------------------------------------------------------------------------------
-Test set: com.tanwisharma.persistence.UserDaoTest
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.309 sec <<< FAILURE! - in com.tanwisharma.persistence.UserDaoTest
-getByUsername()  Time elapsed: 0.043 sec  <<< ERROR!
-org.hibernate.TypeMismatchException: Provided id of the wrong type for class com.tanwisharma.entity.User. Expected: class java.lang.Integer, got class java.lang.String
-	at com.tanwisharma.persistence.UserDaoTest.getByUsername(UserDaoTest.java:26)
 

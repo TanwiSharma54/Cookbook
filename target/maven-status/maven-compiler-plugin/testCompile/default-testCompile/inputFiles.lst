@@ -1,6 +1,3 @@
-/home/student/EnterpriseRepository/Cookbook/src/test/java/com/tanwisharma/service/SearchRecipesbyNutrientsServiceTest.java
-/home/student/EnterpriseRepository/Cookbook/src/test/java/com/tanwisharma/service/RecipeSearchByIngredientsServiceTest.java
-/home/student/EnterpriseRepository/Cookbook/src/test/java/com/tanwisharma/service/RecipeServiceTest.java
-/home/student/EnterpriseRepository/Cookbook/src/test/java/com/tanwisharma/service/RecipeDetailServiceTest.java
+/home/student/EnterpriseRepository/Cookbook/src/test/java/com/tanwisharma/testUtils/Database.java
 /home/student/EnterpriseRepository/Cookbook/src/test/java/com/tanwisharma/persistence/UserDaoTest.java
 /home/student/EnterpriseRepository/Cookbook/src/test/java/com/tanwisharma/persistence/FavoriteDaoTest.java

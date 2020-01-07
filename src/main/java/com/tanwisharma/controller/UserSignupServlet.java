@@ -1,5 +1,6 @@
 package com.tanwisharma.controller;
 
+import com.tanwisharma.entity.Role;
 import com.tanwisharma.entity.User;
 import com.tanwisharma.persistence.UserDao;
 
@@ -39,7 +40,6 @@ public class UserSignupServlet extends HttpServlet {
         String user_name = request.getParameter("user_name");
         String email = request.getParameter("email");
         String pass = request.getParameter("pass");
-
         User user = new User();
         user.setFirst_name(first_name);
         user.setLast_name(last_name);
@@ -47,7 +47,10 @@ public class UserSignupServlet extends HttpServlet {
         user.setEmail(email);
         user.setPass(pass);
         try {
-            userDao.insert(user);
+            int id = userDao.insert(user);
+            user.setId(id);
+            //Role userRole = new Role(id,"user",user_name,user);
+            //userDao.addUserRole(userRole);
         } catch (Exception e) {
             e.printStackTrace();
         }

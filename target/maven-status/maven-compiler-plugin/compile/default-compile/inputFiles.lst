@@ -20,6 +20,7 @@
 /home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/entity/EquipmentItem.java
 /home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/persistence/UserDao.java
 /home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/controller/SearchByIngredientsController.java
+/home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/entity/Role.java
 /home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/entity/RecipeInstructions.java
 /home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/entity/IngredientsItem.java
 /home/student/EnterpriseRepository/Cookbook/src/main/java/com/tanwisharma/service/RecipeSearchByIngredientsService.java
