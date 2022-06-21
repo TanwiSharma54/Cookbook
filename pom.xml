@@ -18,7 +18,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <javax.version>7.0</javax.version>
-    <mysql-version>8.0.16</mysql-version>
+    <mysql-version>8.0.28</mysql-version>
     <maven-compiler-plugin-version>3.8.1</maven-compiler-plugin-version>
     <log4j-version>2.10.0</log4j-version>
     <jstl-version>1.2</jstl-version>
